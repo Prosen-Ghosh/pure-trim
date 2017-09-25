@@ -1,0 +1,34 @@
+{
+  "name": "pure-trim",
+  "version": "1.0.0",
+  "description": "JavaScript Package For Removing  Extra whitespace from a string.",
+  "main": "pure-trim.js",
+  "scripts": {
+    "test": "mocha",
+    "readme": "node ./node_modules/.bin/node-readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prosen-Ghosh/pure-trim.git"
+  },
+  "keywords": [
+    "trim",
+    "whitespace",
+    "string",
+    "ltrim",
+    "rtrim",
+    "object",
+    "array"
+  ],
+  "author": "Prosen Ghosh <prosenghosh25@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prosen-Ghosh/pure-trim/issues"
+  },
+  "homepage": "https://github.com/Prosen-Ghosh/pure-trim#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "node-readme": "^0.1.9"
+  }
+}
