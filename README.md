@@ -30,11 +30,6 @@ JavaScript Package For Removing  Extra whitespace from a string.
 <script src='https://rawgit.com/Prosen-Ghosh/pure-trim/master/pure-trim.js'></script>
 ```
 
-## Scripts
-
- - **npm run test** : `mocha`
- - **npm run readme** : `node ./node_modules/.bin/node-readme`
-
 ## Development Dependencies
 
 Package | Version | Dev
@@ -56,16 +51,23 @@ pureTrim('   abc   abc   abc   ');
 //=> 'abc abc abc'
 
 
-pureTrim(['      abc   abc     abc   ', 2, 3, 4, 5, '    x    xx  xxx    ']);
+pureTrim([
+            '      abc   abc     abc   ',
+            2,
+            3,
+            4,
+            5,
+            '    x    xx  xxx    '
+        ]);
 //=> [ 'abc abc abc', 2, 3, 4, 5, 'x xx xxx' ]
 
 
 pureTrim({
-        a : '      aaa      aaaa    aaaa      ',
-        b : 10,
-        c : 20,
-        d: '            yyy   y   yyyy     y      '
-    });
+            a : '      aaa      aaaa    aaaa      ',
+            b : 10,
+            c : 20,
+            d: '            yyy   y   yyyy     y      '
+        });
 //=> { a: 'aaa aaaa aaaa', b: 10, c: 20, d: 'yyy y yyyy y' }
 ```
 
