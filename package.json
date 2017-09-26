@@ -1,6 +1,6 @@
 {
   "name": "pure-trim",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JavaScript Package For Removing  Extra whitespace from a string.",
   "main": "pure-trim.js",
   "scripts": {
