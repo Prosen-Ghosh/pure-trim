@@ -1,6 +1,6 @@
 {
   "name": "pure-trim",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JavaScript Package For Removing  Extra whitespace from a string.",
   "main": "pure-trim.js",
   "scripts": {
@@ -18,7 +18,10 @@
     "ltrim",
     "rtrim",
     "object",
-    "array"
+    "array",
+    "deep trim",
+    "inner object",
+    "inner array"
   ],
   "author": "Prosen Ghosh <prosenghosh25@gmail.com>",
   "license": "MIT",
