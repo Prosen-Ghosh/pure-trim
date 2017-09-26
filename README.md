@@ -22,7 +22,7 @@ JavaScript Package For Removing  Extra whitespace from a string.
 
 **For Production**
 ```js
-<script src='https://cdn.rawgit.com/Prosen-Ghosh/pure-trim/10ce2dab/pure-trim.js'></script>
+<script src='https://cdn.rawgit.com/Prosen-Ghosh/pure-trim/f938fb2d/pure-trim.js'></script>
 ```
 
 **For Development**
