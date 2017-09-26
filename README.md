@@ -69,6 +69,41 @@ pureTrim({
             d: '            yyy   y   yyyy     y      '
         });
 //=> { a: 'aaa aaaa aaaa', b: 10, c: 20, d: 'yyy y yyyy y' }
+
+```
+
+This `pureTrim` is also functionable for inner objects or array values. `pureTrim` function will remove all extra whitespaces from all the inner string poperty value od an object or array.
+
+```js
+const pureTrim = require('pure-trim');
+
+let obj1 = {
+            firstVal : [{
+                str1 : '    xxxxx           xx   x       xxxx     ',
+                objIner1 : [
+                    {
+                        objIner2 : [1,2,3,'    xxxxx  x x xxxxxx           xxxx    ',
+                        {
+                            str2 : ' xxx                 xxxxxxxxxxxxxxxx                   xxxxxxxxxxxxxxx   '
+                        }]
+                    }
+                ]
+            }]
+        }
+
+pureTrim(obj1);
+/*// => {
+            firstVal : [{
+                str1 : 'xxxxx xx x xxxx',
+                objIner1 : [
+                    {objIner2 : [1,2,3,'xxxxx x x xxxxxx xxxx',{
+                        str2 : 'xxx xxxxxxxxxxxxxxxx xxxxxxxxxxxxxxx'
+                    }]}
+                ]
+            }]
+        }
+*/
+
 ```
 
 ## Author
